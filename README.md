@@ -1,3 +1,3 @@
 # Project-Sign-Up-Form
 
-Project to familirise with intermidiate HTML and CSS
+Project to familiarise with intermidiate HTML and CSS

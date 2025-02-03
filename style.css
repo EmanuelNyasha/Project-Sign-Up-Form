@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: norse-bold;
+    src: url(../Project-Sign-Up-Form/Norse-Bold.otf);
+  }
+
+#main {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.left {
+    width: 35vw;
+    height: 100vh;
+    color: white;
+    background-image: url("./Images/halie-west-25xggax4bSA-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 243, 242);
+    width: 65vw;
+}
+
+.intro {
+    height: 25vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.form-main {
+    height: 42vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+.btn {
+    background-color: rgb(238, 243, 242);
+    height: 100vh;
+    padding: 50px;
+}
+
+button {
+    background-color: #596048;
+    color: white;
+    border: 1px solid #596048;
+    border-radius: 10px;
+    height: 30px;
+    width: 175px;
+    font-weight: bolder;
+    box-shadow: 2px 5px #000000;
+
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.last {
+   height: 33vh;
+}
+
+.inputs-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-divs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-left: 35px;
+}
+
+.form > p {
+    margin-left: 35px;
+}
+input {
+    width: 200px;
+    border: 1px solid #e5e7eb;
+    height: 25px;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 1px solid blue;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+label {
+    font-size: 1opx;
+    color: #474849;
+}
+
+.last {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.login {
+    color: #596048;
+    text-decoration: none;
+}
+.a-footer {
+    color: white;
+}
+
+.p-footer {
+    font-size: 12px;
+    text-align: center;
+    
+}
+.forImage {
+    height: 40vh;
+    display: flex;
+    align-items: flex-end;
+
+}
+ .forFooter {
+    height: 60vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+ }
+
+ .semi-transparent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    opacity: 0.5;
+ }
+
+ h1 {
+    font-family: norse-bold;
+    font-size: 4rem;
+ }
